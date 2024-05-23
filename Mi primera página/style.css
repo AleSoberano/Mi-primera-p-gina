@@ -1,0 +1,137 @@
+body {
+    background: #f8fcc1;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    size: 100%;
+    margin: 40px;
+}
+/* Titulo de la pagina */
+h1 {
+    color: #1693a7;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Area del menú*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+        /* Anclas del menú  */
+a {
+    color:#fefff3;
+    font-weight: 650;
+    text-decoration:none;
+    font-size: 16px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* ANCLAS COMO BOTONES */
+    background-color: #c8cf02;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+a:hover{
+    background-color: #1693a7;
+    color: white;
+}
+/* *************Imagen de la floreria******** */
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Listas de las flores */
+h4{
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-style: normal;   
+    font-size: 35px;
+    font-weight: 500;
+    color: #e6781e;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ul{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Titulos de las secciones con parrafos */
+h3 {
+    color:#cc0c39;
+    font-size: 35px;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+.seccion .flor{
+    width: 400px;
+    border: 2px solid #e6781e;
+}
+
+.seccion{
+    justify-content:  center;
+    text-align:center;
+}
+
+p{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/* SECCIÓN CONOCE MÁS */
+
+.conoce{
+    background-color: #eef35e;
+    border-radius: 25px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+}
+.conoce1{
+    text-align: center;
+}
+
+.conoce .link{
+    text-align: center;
+}
+.linkk{
+    background-color: #eef35e;
+    padding: 0;
+
+}
+
+.linkk:hover{
+    background-color: #eef35e;
+}
+.usos{
+    margin-top:100px;
+}
